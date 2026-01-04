@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="wizards.css">
+    <title>Varázsló kereső</title>
+  </head>
+  <body>
+    <h1>Varázsló kereső</h1>
+
+    <label for="idInput">Varázsló azonosítója: </label
+    ><input type="number" min="1" max="6" value="1" id="idInput" />
+    <button onclick="search()">Keresés</button>
+
+    <ul id="list">
+      <li> Varázsló: </li>
+      <li id="name"></li>
+      <li id="id"></li>
+      <li id="house"></li>
+      <li id="boggart"></li>
+    </ul>
+
+    <script src="wizards.js"></script>
+  </body>
+</html>
