@@ -25,6 +25,8 @@ function display(wizard)
     document.getElementById("id").textContent = "Azonosító: : " + wizard.id
     document.getElementById("house").textContent = "Ház: : " + wizard.house
     document.getElementById("boggart").textContent = "Mumus: : " + wizard.boggart
+
+    console.log(`Név: ${wizard.name}\nAzonosító: ${wizard.id}\nHáz: ${wizard.house}\nMumus: ${wizard.boggart}`)
 }
 
 function search()
